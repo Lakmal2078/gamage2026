@@ -1,8 +1,11 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite' // <-- මේක තියෙනවාද බලන්න
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
-  base: "/GMC-Sri-Lanka/", // <--- මේ පේළිය අනිවාර්යයෙන්ම එකතු කරන්න!
+  plugins: [
+    react(),
+    tailwindcss(), // <-- මේකත් මෙතන තියෙන්න ඕනේ
+  ],
+  base: "/GMC-Sri-Lanka/",
 })
