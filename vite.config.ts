@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   base: "/GMC-Sri-Lanka/", 
   css: {
-    transformer: 'postcss' // CSS warning එක නැති කරගන්න මේක එකතු කරන්න
+    transformer: 'postcss' // මේ කොටස අනිවාර්යයෙන්ම එකතු කරන්න
   }
 })
 
