@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(), // 👈 Tailwind Plugin එක මෙතැන තිබිය යුතුමයි!
   ],
-  base: '/gamage2026/', // 👈 මුලට සහ අගට / ලකුණ අනිවාර්යයි!
+  base: '/gamage_marketing/', // 👈 මුලට සහ අගට / ලකුණ අනිවාර්යයි!
 })
