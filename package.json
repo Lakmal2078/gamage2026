@@ -2,7 +2,7 @@
   "name": "gamage2026",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.io",
+  "homepage": "https://Lakmal2078.github.io/gamage2026",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -36,4 +36,3 @@
     "vite": "^8.0.12"
   }
 }
-
