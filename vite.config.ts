@@ -1,12 +1,9 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import tailwindcss from '@tailwindcss/vite' // 👈 මේ පේළිය තියෙනවද බලන්න
+import tailwindcss from '@tailwindcss/vite'
 
-// https://vite.dev/config/
 export default defineConfig({
-  plugins: [
-    react(),
-    tailwindcss(), // 👈 මේ Plugin එක මෙතන තියෙන්නම ඕනේ!
-  ],
+  plugins: [react(), tailwindcss()],
+  base: '/gamage2026/', // 👈 මේ පේළිය අනිවාර්යයෙන්ම එකතු කරන්න!
 })
 
