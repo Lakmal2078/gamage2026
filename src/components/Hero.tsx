@@ -1,9 +1,8 @@
-
 export const Hero = () => {
   return (
-    <section className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white py-16 px-6">
+    <section className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white py-16 px-6 overflow-hidden">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-        
+
         {/* වම් පැත්තේ තියෙන Text සහ Buttons */}
         <div className="animate-fade-in">
           <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
@@ -11,7 +10,8 @@ export const Hero = () => {
             <span className="text-yellow-300">Digital Powerhouse</span> එකක් කරන්න
           </h1>
           <p className="text-xl mb-8 opacity-90">
-            AI-driven marketing strategies, premium branding solutions, high-converting campaigns සහ modern digital experiences එක්ක ඔබේ business එක next level එකට ගෙන යන්න.
+            AI-driven marketing strategies, premium branding solutions, high-converting campaigns සහ modern digital experiences එක්ක ඔබේ
+            business එක next level එකට ගෙන යන්න.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a href="#contact" className="bg-white text-indigo-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 text-center transition-all shadow-lg">
@@ -26,9 +26,9 @@ export const Hero = () => {
         {/* දකුණු පැත්තේ තියෙන පින්තූරය */}
         <div className="relative">
           <div className="bg-white p-2 rounded-2xl shadow-2xl">
-            <img 
-              src="https://i.pinimg.com/1200x/85/02/fa/8502facbe28857e2a2df425d0776db2b.jpg" 
-              alt="Digital Marketing Professional Team" 
+            <img
+              src="https://i.pinimg.com/1200x/85/02/fa/8502facbe28857e2a2df425d0776db2b.jpg"
+              alt="Digital Marketing Professional Team"
               className="rounded-xl w-full"
             />
           </div>

@@ -1,19 +1,12 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite' // 👈 මේ පේළිය තියෙනවද බලන්න
 
-// https://vitejs.dev
+// https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
-  // ඔබේ Repository නම gamage2026 නිසා base එක මේ විදියට විය යුතුයි
-  base: "/gamage2026/", 
-  css: {
-    // Tailwind v4 වල LightningCSS syntax error මඟහරවා ගැනීමට
-    transformer: 'postcss',
-    minify: false
-  },
-  build: {
-    // Vite වල default lightningcss එක වෙනුවට esbuild මඟින් CSS minify කිරීමට
-    cssMinify: 'esbuild'
-  }
+  plugins: [
+    react(),
+    tailwindcss(), // 👈 මේ Plugin එක මෙතන තියෙන්නම ඕනේ!
+  ],
 })
 
