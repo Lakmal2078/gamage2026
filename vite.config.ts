@@ -4,5 +4,9 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev
 export default defineConfig({
   plugins: [react()],
-  base: "/GMC-Sri-Lanka/", // මේ පේළිය අනිවාර්යයෙන්ම එකතු කරන්න
+  base: "/GMC-Sri-Lanka/", 
+  css: {
+    transformer: 'postcss' // CSS warning එක නැති කරගන්න මේක එකතු කරන්න
+  }
 })
+
