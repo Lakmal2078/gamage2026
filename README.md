@@ -2,7 +2,7 @@
 
 A modern, fully responsive digital marketing agency website built with **React 19**, **TypeScript**, **Vite 8**, and **Tailwind CSS v4**.
 
-🔗 **Live Site:** [https://Lakmal2078.github.io/gamage2026](https://Lakmal2078.github.io/gamage2026)
+🔗 **Live Site:** (https://lakmal2078.github.io/gamage_marketing/)
 
 ---
 
